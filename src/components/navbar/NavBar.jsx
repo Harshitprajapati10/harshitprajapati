@@ -62,7 +62,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            TM
+            HP
           </Link>
         </div>
         <div
@@ -106,7 +106,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               </li>
             ))}
             <a
-              href="mailto:tanmaymeshram883@gmail.com?subject=Connect"
+              href="mailto:prajapatiharshit93@gmail.com?subject=Connect"
               className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               Connect

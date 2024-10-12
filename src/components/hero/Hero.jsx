@@ -11,11 +11,12 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
+import profileImg from "../../assets/harshit.jpg" 
 
 
 const Hero = () => {
   const handleHireMeClick = () => {
-    window.location.href = "mailto:tanmaymeshram883@gmail.com?subject=Raised from Portfolio&body=Hi Tanmay, I am interested in hiring you for a project. Please let me know your availability.";
+    window.location.href = "mailto:prajapatiharshit93@gmail.com?subject=Raised from Portfolio&body=Hi Harshit, I am interested in hiring you for a project. Please let me know your availability.";
   }
 
   return (
@@ -27,11 +28,13 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm Tanmay Meshram ;)
+              Hello, I'm Harshit ;)
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
+                "Python developer",
+                2000,
                 "Software Developer",
                 2000,
                 "Full Stack Developer",
@@ -79,31 +82,31 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/TMTanmay1/">
+                <a href="https://github.com/Harshitprajapati10/">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/tanmay-meshram-614727233/">
+                <a href="https://www.linkedin.com/in/harshit-prajapati-6622502ab/">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/tmtanmay3466/">
+                <a href="https://www.instagram.com/hars_20.0">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="mailto:tanmaymeshram883@gmail.com">
+                <a href="mailto:prajapatiharshit93@gmail.com">
                   {" "}
                   <AiFillMail className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="tel:+91 7972711814">
+                <a href="tel:+91 7505117620">
                   {" "}
                   <AiFillPhone className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
@@ -115,9 +118,9 @@ const Hero = () => {
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover  md:h-[95%] md:m-auto sm:m-0"
+              className=" h-[90%] rounded-full  w-full object-cover  md:h-[95%] md:m-auto sm:m-0"
               // src='https://i.postimg.cc/XNhbv4TB/2.png'
-              src="https://i.postimg.cc/SK5q11yM/my.jpg"
+              src={profileImg}
               // src={mine}
               alt="mine"
             />
