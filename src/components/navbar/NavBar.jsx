@@ -16,10 +16,10 @@ const navItems = [
     id: 2,
     name: "works",
   },
-  {
-    id: 3,
-    name: "resume",
-  },
+  // {
+  //   id: 3,
+  //   name: "resume",
+  // },
   {
     id: 4,
     name: "contact",

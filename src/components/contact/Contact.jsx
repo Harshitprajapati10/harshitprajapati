@@ -8,7 +8,7 @@ const Contact = () => {
   const[message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
-    window.location.href = `mailto:${email}?subject=${subject}&body=${message}`;
+    window.location.href = `mailto:${"prajapatiharshit93@gmail.com"}?subject=${subject}&body=${message}`;
   }
   
   return (

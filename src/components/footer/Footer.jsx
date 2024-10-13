@@ -15,7 +15,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1000"
 
-            href="mailto:tanmaymeshram883@gmail.com"
+            href="mailto:prajapatiharshit93@gmail.com"
             className="box font-medium text-white   flex items-center justify-center flex-col"
           >
             <AiFillMail className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -24,7 +24,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1200"
 
-            href="https://wa.me/7972711814?text=Hi Tanmay!"
+            href="https://wa.me/7505117620?text=Hi Harshit!"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -33,7 +33,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1400"
 
-            href="https://www.instagram.com/tmtanmay3466/"
+            href="https://www.instagram.com/hars_20.0"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -41,7 +41,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span>2024 Tanmay ;) </span> All rights reserved
+          | Copyright &copy; <span>2024 Harshit :) </span> All rights reserved
           <a href="#"></a> |
         </div>
       </div>

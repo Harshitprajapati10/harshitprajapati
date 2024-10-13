@@ -55,7 +55,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              "Known for a proactive approach, attention to detail, and the ability to work effectively both independently and as part of a team. A versatile MERN stack developer, committed to contributing to a productive and positive work environment."
+              "Known for a proactive approach, 🎯 attention to detail, 🧐 and the ability to work both independently and collaboratively. A versatile website developer 💻 and passionate sportsman ⚽, committed to fostering a productive and positive work environment 🤝."
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -66,7 +66,7 @@ const Hero = () => {
               <span onClick={handleHireMeClick} > Hire Me</span>
             </a>
             <a
-              href={resumePDF}
+              href="https://drive.google.com/file/d/1T-Sh14u-XF_HJd2PAvjwtfVjACygn0Tg/view?usp=sharing"
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
