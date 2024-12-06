@@ -45,7 +45,6 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar logo={<FaCode />} name={"Data Structures"} value={70} />
                 <ProgressBar logo={<SiDjango />} name={"Python Django"} value={75} />
                 <ProgressBar logo={<SiDjango />} name={"Django REST Framework"} value={75} />
-                <ProgressBar logo={<IoLogoAndroid />} name={"Android Development (Java)"} value={85} />
 
                 <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
 
