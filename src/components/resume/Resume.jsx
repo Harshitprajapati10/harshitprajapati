@@ -25,6 +25,7 @@ const Resume = () => {
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
               Experience
             </legend>
+            
             <div className=" relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
@@ -32,8 +33,9 @@ const Resume = () => {
                 <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
+
               {/* design */}
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              {/* <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Full Stack Developer
                 </h1>
@@ -44,13 +46,13 @@ const Resume = () => {
                   Feb 2024 - Aug 2024
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Engineered a comprehensive CRM platform during my internship, expanding functionality to include 5+
+                  Engineered a comprehensive CRM platform during my internship, expanding functionality to include 5+
                   sub-branches, optimizing appointment bookings by 30%, generating 100+ bills weekly, and integrating advanced
                   business analysis tools and a customer loyalty program, which increased client retention by 15%
                 </p>
-              </div>
+              </div> */}
 
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              {/* <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Web Developer
                 </h1>
@@ -61,12 +63,12 @@ const Resume = () => {
                   October 2023 - November 2023
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Directed the development of the institute’s 5th convocation website, ensuring a seamless user experience and timely
-delivery.
+                  Directed the development of the institute’s 5th convocation website, ensuring a seamless user experience and timely
+                  delivery.
                 </p>
-              </div>
+              </div> */}
 
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              {/* <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Full Stack Developer
                 </h1>
@@ -77,10 +79,10 @@ delivery.
                   July 2023 - September 2023
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Designed and deployed a recruitment platform for organizational management, streamlining the processing of 200+
-                applications weekly, automating candidate tracking, and reducing time-to-hire by 20%.
+                  Designed and deployed a recruitment platform for organizational management, streamlining the processing of 200+
+                  applications weekly, automating candidate tracking, and reducing time-to-hire by 20%.
                 </p>
-              </div>
+              </div> */}
             </div>
           </fieldset>
         </div>
@@ -100,24 +102,29 @@ delivery.
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
+
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  B.Tech, Information Technology
+                  Master of computer Application
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                Indian Institute of Information Technology Vadodara
+                  Banaras Hindu University, Varanasi
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2021 - Year 2025
+                  Year 2025 - Present
                 </span>
-                {/* <p className=" text-[.9rem] text-justify text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
-                </p> */}
+              </div>
+
+              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Bachelor of Science(PCM)
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Sridev Suman Uttarakhand University
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  Year 2021 - Year 2024
+                </span>
               </div>
 
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
@@ -125,10 +132,22 @@ delivery.
                   Higher Secondary Education, XII
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                Prerna College of Commerce, Science & Art
+                  Jawahar Navodaya Vidyalaya, Haridwar, Uttarakhand
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2019 - Year 2021
+                  Year 2020 - Year 2021
+                </span>
+              </div>
+
+              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  High School, X
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Jawahar Navodaya Vidyalaya, Haridwar, Uttarakhand
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  Year 2018 - Year 2019
                 </span>
                 {/* <p className=" text-[.9rem] text-justify text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
