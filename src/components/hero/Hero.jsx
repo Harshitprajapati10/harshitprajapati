@@ -66,7 +66,7 @@ const Hero = () => {
               <span onClick={handleHireMeClick} > Hire Me</span>
             </a>
             <a
-              href="https://drive.google.com/file/d/1T-Sh14u-XF_HJd2PAvjwtfVjACygn0Tg/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AHuPxOEizeoX0HpJrz7XJvzEFcDr_IWT/view?usp=drivesdk"
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
