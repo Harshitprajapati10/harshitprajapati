@@ -1,7 +1,15 @@
 import React from "react";
 import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
-
+import {
+  SiNumpy,
+  SiTensorflow,
+  SiPandas,
+  SiScikitlearn,
+  SiPytorch,
+  SiSeaborn,
+  SiMatplotlib
+} from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3, IoLogoAndroid } from "react-icons/io";
 import { SiPython, SiDjango, SiGit, SiBootstrap, SiExpress, SiJavascript, SiTailwindcss, SiMongodb } from "react-icons/si";
 import { FaCode, FaGithub, FaJava } from "react-icons/fa";
@@ -39,23 +47,20 @@ const Skills = ({ darkMode }) => {
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
 
                 <ProgressBar logo={<SiPython />} name={"Python"} value={85} />
+                
+                <ProgressBar logo={<SiNumpy />} name={"NumPy"} value={85} />
+                <ProgressBar logo={<SiTensorflow />} name={"TensorFlow"} value={80} />
+                <ProgressBar logo={<SiPandas />} name={"Pandas"} value={90} />
+                <ProgressBar logo={<SiScikitlearn />} name={"Scikit-Learn"} value={85} />
+                <ProgressBar logo={<SiPytorch />} name={"PyTorch"} value={80} />
+                <ProgressBar logo={<SiSeaborn />} name={"Seaborn"} value={75} />
+                <ProgressBar logo={<SiMatplotlib />} name={"Matplotlib"} value={80} /><ProgressBar logo={<GrCode />} name={"MySQL"} value={65} />
                 <ProgressBar logo={<FaJava />} name={"Java"} value={90} />
                 <ProgressBar logo={<SiJavascript />} name={"Javascript"} value={80} />
 
                 <ProgressBar logo={<FaCode />} name={"Data Structures"} value={70} />
                 <ProgressBar logo={<SiDjango />} name={"Python Django"} value={75} />
                 <ProgressBar logo={<SiDjango />} name={"Django REST Framework"} value={75} />
-
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
-
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
-
-                <ProgressBar logo={<SiTailwindcss />} name={"Tailwind CSS"} value={80} />
-                <ProgressBar logo={<SiBootstrap />} name={"Bootstrap"} value={75} />
-                <ProgressBar logo={<IoLogoNodejs />} name={"Node Js"} value={75} />
-                <ProgressBar logo={<SiMongodb />} name={"MongoDB"} value={70} />
-                <ProgressBar logo={<GrCode />} name={"MySQL"} value={65} />
 
                 <ProgressBar logo={<SiGit />} name={"Git"} value={80} />
                 <ProgressBar logo={<FaGithub />} name={"GitHub"} value={85} />
@@ -67,31 +72,31 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                logo={<FaCode />}
+                logo={<SiPytorch />}
                 black={"white"}
                 white={"black"}
-                skill={"Data Structures"}
+                skill={"Pytorch"}
               />
               <SkillBox
-                logo={<SiDjango />}
+                logo={<SiTensorflow />}
                 black={"white"}
                 white={"black"}
-                skill={"Python Django"}
+                skill={"TensorFlow"}
               />
 
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiGit />}
+                logo={<SiMatplotlib />}
                 black={"black"}
                 white={"white"}
-                skill={"Git"}
+                skill={"Matplotlib"}
               />
               <SkillBox
-                logo={<FaReact />}
+                logo={<SiNumpy />}
                 black={"black"}
                 white={"white"}
-                skill={"React Js"}
+                skill={"NumPy"}
               />
             </div>
           </div>
