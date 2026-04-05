@@ -35,13 +35,13 @@ const Hero = () => {
               sequence={[
                 "Python developer",
                 2000,
-                "Software Developer",
+                "Machine learning enthusiast",
                 2000,
-                "Full Stack Developer",
+                "Data analyst",
                 2000,
-                "Web Developer",
+                "AI enthusiast",
                 2000,
-                "Freelancer",
+                "NLP",
                 2000,
                 ""
                 
@@ -55,7 +55,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              "Known for a proactive approach, 🎯 attention to detail, 🧐 and the ability to work both independently and collaboratively. A versatile website developer 💻 and passionate sportsman ⚽, committed to fostering a productive and positive work environment 🤝."
+              "Known for a proactive approach, 🎯 attention to detail, 🧐 and the ability to work both independently and collaboratively. A versatile AI developer 💻 and passionate sportsman ⚽, committed to fostering a productive and positive work environment 🤝."
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -66,7 +66,7 @@ const Hero = () => {
               <span onClick={handleHireMeClick} > Hire Me</span>
             </a>
             <a
-              href="https://drive.google.com/file/d/1AHuPxOEizeoX0HpJrz7XJvzEFcDr_IWT/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1qRXozgdBRhrEBZNU_7AWD_fQzdYxhzjZ/view"
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
@@ -94,13 +94,13 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/hars_20.0">
+                <a href="https://www.instagram.com/harshit.pr25/">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="mailto:prajapatiharshit93@gmail.com">
+                <a href="mailto:harshitprajapati.cs.2025@bhu.ac.in">
                   {" "}
                   <AiFillMail className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
@@ -126,11 +126,11 @@ const Hero = () => {
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
-                <img
+                {/* <img
                   className=" w-[135px] md:w-[90px] circle-text"
                   src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
                   alt=""
-                />
+                /> */}
                 <FaPlay
                   className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
                 />
