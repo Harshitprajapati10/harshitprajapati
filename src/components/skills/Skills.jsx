@@ -4,10 +4,10 @@ import SkillBox from "../../chip/SkillBox";
 import {
   SiNumpy,
   SiTensorflow,
-  SiPandas,
+  SiPandas, 
   SiScikitlearn,
   SiPytorch,
-  SiSeaborn,
+  SiPlotly ,
   SiMatplotlib
 } from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3, IoLogoAndroid } from "react-icons/io";
@@ -52,8 +52,8 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar logo={<SiTensorflow />} name={"TensorFlow"} value={80} />
                 <ProgressBar logo={<SiPandas />} name={"Pandas"} value={90} />
                 <ProgressBar logo={<SiScikitlearn />} name={"Scikit-Learn"} value={85} />
-                <ProgressBar logo={<SiPytorch />} name={"PyTorch"} value={80} />
-                <ProgressBar logo={<SiSeaborn />} name={"Seaborn"} value={75} />
+                <ProgressBar logo={<SiPytorch />} name={"PyTorch"} value={95} />
+                <ProgressBar logo={<SiPlotly />} name={"Plotly"} value={75} />
                 <ProgressBar logo={<SiMatplotlib />} name={"Matplotlib"} value={80} /><ProgressBar logo={<GrCode />} name={"MySQL"} value={65} />
                 <ProgressBar logo={<FaJava />} name={"Java"} value={90} />
                 <ProgressBar logo={<SiJavascript />} name={"Javascript"} value={80} />
