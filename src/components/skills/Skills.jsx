@@ -8,10 +8,12 @@ import {
   SiScikitlearn,
   SiPytorch,
   SiPlotly ,
-  SiMatplotlib
+  SiMatplotlib,
+  SiPython, SiDjango, SiGit,
+  SiJavascript
 } from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3, IoLogoAndroid } from "react-icons/io";
-import { SiPython, SiDjango, SiGit, SiBootstrap, SiExpress, SiJavascript, SiTailwindcss, SiMongodb } from "react-icons/si";
+// import {  SiBootstrap, SiExpress,  SiTailwindcss, SiMongodb } from "react-icons/si";
 import { FaCode, FaGithub, FaJava } from "react-icons/fa";
 
 import { GrCode } from "react-icons/gr";
