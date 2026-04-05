@@ -8,7 +8,7 @@ import {
   SiScikitlearn,
   SiPytorch,
   SiPlotly ,
-  FcScatterPlot ,
+  // FcScatterPlot ,
   SiPython, SiDjango, SiGit,
   SiJavascript
 } from "react-icons/si";
@@ -56,7 +56,7 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar logo={<SiScikitlearn />} name={"Scikit-Learn"} value={85} />
                 <ProgressBar logo={<SiPytorch />} name={"PyTorch"} value={95} />
                 <ProgressBar logo={<SiPlotly />} name={"Plotly"} value={75} />
-                <ProgressBar logo={<FcScatterPlot  />} name={"Matplotlib"} value={80} /><ProgressBar logo={<GrCode />} name={"MySQL"} value={65} />
+                <ProgressBar logo={<SiPython  />} name={"Matplotlib"} value={80} /><ProgressBar logo={<GrCode />} name={"MySQL"} value={65} />
                 <ProgressBar logo={<FaJava />} name={"Java"} value={90} />
                 <ProgressBar logo={<SiJavascript />} name={"Javascript"} value={80} />
 
@@ -89,7 +89,7 @@ const Skills = ({ darkMode }) => {
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<FcScatterPlot  />}
+                logo={<SiPython  />}
                 black={"black"}
                 white={"white"}
                 skill={"Matplotlib"}
