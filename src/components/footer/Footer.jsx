@@ -15,7 +15,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1000"
 
-            href="mailto:prajapatiharshit93@gmail.com"
+            href="mailto:harshitprajapati.cs.2025@bhu.ac.in"
             className="box font-medium text-white   flex items-center justify-center flex-col"
           >
             <AiFillMail className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -33,7 +33,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1400"
 
-            href="https://www.instagram.com/hars_20.0"
+            href="https://www.instagram.com/harshit.pr25"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
